@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3307
--- Generation Time: Apr 18, 2022 at 09:49 AM
+-- Generation Time: Apr 19, 2022 at 08:54 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -61,8 +61,7 @@ INSERT INTO `book` (`book_id`, `book_title`, `category_id`, `author`, `book_copi
 (29, 'Beloved a Novel', 9, 'Toni Morrison', 13, NULL, 'Alfred A. Knoff, Inc', '0-394-53597-9', 1987, '2013-12-11 07:07:00', 'Old'),
 (30, 'Silver Burdett Engish', 2, 'Judy Brim', 12, 'Silver Burdett Company', 'Silver', '0-382-03575-5', 1985, '2013-12-11 09:22:00', 'Old'),
 (31, 'The Corporate Warriors (Six Classic Cases in American Business)', 8, 'Douglas K. Ramsey', 8, 'Houghton Miffin Company', NULL, '0-395-35487-0', 1987, '2013-12-11 09:25:00', 'Old'),
-(32, 'Introduction to Information System', 9, 'Cristine Redoblo', 12, 'CHMSC', 'Brian INC', '123-132', 2013, '2014-01-17 19:00:00', 'New'),
-(33, 'awdawd', 1, 'awda', 1, 'awdawd', 'awdawd', 'awdawd', 2013, '2022-04-17 04:07:21', 'New');
+(32, 'Introduction to Information System', 9, 'Cristine Redoblo', 12, 'CHMSC', 'Brian INC', '123-132', 2013, '2014-01-17 19:00:00', 'New');
 
 -- --------------------------------------------------------
 
@@ -85,7 +84,7 @@ CREATE TABLE `borrowdetails` (
 --
 
 INSERT INTO `borrowdetails` (`borrow_details_id`, `book_id`, `borrow_status`, `date_return`, `member_id`, `date_borrow`, `due_date`) VALUES
-(162, 15, 'pending', NULL, 55, '2014-03-20 23:49:00', '2014-03-21 00:00:00'),
+(162, 15, 'pending', NULL, 55, '2022-04-07 00:00:00', '2014-03-21 00:00:00'),
 (163, 15, 'returned', '2014-03-21 00:30:00', 52, '2014-03-20 23:38:00', '2014-01-03 00:00:00'),
 (164, 16, 'pending', NULL, 55, '2014-03-20 23:50:00', '2014-03-21 00:00:00');
 
@@ -149,10 +148,7 @@ INSERT INTO `member` (`member_id`, `firstname`, `lastname`, `gender`, `address`,
 (61, 'Chairty Joy', 'Punzalan', 'Female', 'E.B. Magalona', 12423, 'Teacher', 'Faculty', 'Active'),
 (62, 'Kristine May', 'Dela Rosa', 'Female', 'Silay City', 1321, 'Student', 'Second Year', 'Active'),
 (63, 'Chinie marie', 'Laborosa', 'Female', 'E.B. Magalona', 902101, 'Student', 'Second Year', 'Active'),
-(64, 'Ruby', 'Morante', 'Female', 'E.B. Magalona', NULL, 'Teacher', 'Faculty', 'Active'),
-(66, 'wong', 'awd', 'Male', 'awdawd', 656, 'Student', 'First Year', 'Active'),
-(67, 'wong', 'wdaw', 'Male', 'awdawd', 9595, 'Student', 'First Year', 'Active'),
-(68, 'kojihgy', 'sfdgfhg', 'Male', 'asfdgsbf', 12345, 'Student', 'First Year', 'Active');
+(64, 'Ruby', 'Morante', 'Female', 'E.B. Magalona', NULL, 'Teacher', 'Faculty', 'Active');
 
 -- --------------------------------------------------------
 
