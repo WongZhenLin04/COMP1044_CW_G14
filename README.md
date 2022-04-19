@@ -13,3 +13,6 @@ IN THE CASE OF CONNECTION ERRORS PLEASE TRY:
     - The password of your phpmyadmin account at the variable $password
     - The databse name for variable $dbname 
     - Putting the port number at the end of the $conn statement e.g. $conn=new mysqli($server,$username,$password,$dbname,3307);
+
+NOTE:
+- Please import the sql file into your phpmyadmin account before using any of the features in the website 
