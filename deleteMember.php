@@ -2,8 +2,6 @@
 <?php
 	include 'header.php';
 ?>
-
-<script type="text/javascript" src="errorMessageUpdate.js"></script>
 <div class='displayingForm'>
 	<h1>Delete member Form</h1>
 	<p id="error">please fill in the ID in each <br>field first before clicking on delete</p>
@@ -57,6 +55,6 @@ else if (isset($_POST['deleteMember']) && $_POST['member_id'] =='' ) {
 <!--add code between here or anywhere reallye-->
 <br><br>
 <div class='displayingForm'>
-	<a href="index.php">Click here to go back to main page</a><br><br>
+	<a href="land.php">Click here to go back to main page</a><br><br>
 	<a href="memberLand.php">Click here to go back to the Members landing page</a>
 </div>

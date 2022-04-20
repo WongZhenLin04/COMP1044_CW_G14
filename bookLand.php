@@ -12,5 +12,5 @@
 	<a href="updateBorrow.php">Update borrow details<a><br><br>
 	<a href="searchBook.php">Search for a book<a><br><br>
 	<a href="deleteBook.php">Delete a book<a><br><br>
-	<a href="index.php">Click here to go back to main page</a><br><br>
+	<a href="land.php">Click here to go back to main page</a><br><br>
 </div>

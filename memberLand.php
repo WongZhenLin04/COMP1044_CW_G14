@@ -12,5 +12,5 @@
 	<a href="updateMember.php">Update member details<a><br><br>
 	<a href="searchMember.php">Search for a member<a><br><br>
 	<a href="deleteMember.php">Delete a member<a><br><br>
-	<a href="index.php">Click here to go back to main page</a><br><br>
+	<a href="land.php">Click here to go back to main page</a><br><br>
 </div>

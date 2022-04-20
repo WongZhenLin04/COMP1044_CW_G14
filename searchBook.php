@@ -327,6 +327,6 @@ if(isset($_POST['search_status'])){
 
 <br><br>
 <div class='displayingForm'>
-	<a href="index.php">Click here to go back to main page</a><br><br>
+	<a href="land.php">Click here to go back to main page</a><br><br>
 	<a href="bookLand.php">Click here to go back to the Books landing page</a>
 </div>

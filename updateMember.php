@@ -348,6 +348,6 @@
 </div>
 <br><br>
 <div class='displayingForm'>
-	<a href="index.php">Click here to go back to main page</a><br><br>
+	<a href="land.php">Click here to go back to main page</a><br><br>
 	<a href="memberLand.php">Click here to go back to the Members landing page</a>
 </div>
