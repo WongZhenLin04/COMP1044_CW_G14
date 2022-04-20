@@ -16,3 +16,4 @@ IN THE CASE OF CONNECTION ERRORS PLEASE TRY:
 
 NOTE:
 - Please import the sql file into your phpmyadmin account before using any of the features in the website 
+- LOGIN INFO: Username: admin password: admin
