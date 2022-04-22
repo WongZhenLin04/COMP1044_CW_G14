@@ -16,4 +16,15 @@ IN THE CASE OF CONNECTION ERRORS PLEASE TRY:
 
 NOTE:
 - Please import the sql file into your phpmyadmin account before using any of the features in the website 
-- LOGIN INFO: Username: admin password: admin
+- LOGIN INFO: 
+    - Username: admin 
+    - password: admin
+
+FEATURES INCLUDED:
+- Searching for members and books with any of their information
+- Inserting records of members and books
+- Updating details in regards to borrow and member details
+- Deleting records of members and books
+- Checks for invalid user input
+- Checks for return lates
+- A login system! 
